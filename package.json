@@ -1,0 +1,29 @@
+{
+  "name": "Curso Node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "express1": "node --watch express.js",
+    "start": "node express.js"
+  },
+  "keywords": [
+    "curso",
+    "midu",
+    "js"
+  ],
+  "author": "Daykair",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "17.1.2"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.21.0",
+    "picocolors": "1.1.0",
+    "zod": "3.23.8"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}

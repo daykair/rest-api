@@ -1,0 +1,30 @@
+GET http://localhost:1234/products?category=BILLETERA
+
+###Cartera en especifico
+
+GET http://localhost:1234/products/
+### Enviando datos (manejo de POST)
+
+POST http://localhost:1234/products 
+Content-Type: application/json
+
+{
+  "name": 10,
+  "description": "Hermosa cartera, actualmente en tendencia",
+  "img": "cualquiera.png",
+  "price": 52,
+  "category": "Billetera"
+}
+
+###Patching
+PATCH http://localhost:1234/products/04
+Content-Type: application/json
+
+{
+  "img": "ruta.pnng",
+  "name": "Koala Marc Jacobs",
+  "description": "Hermoso koala, que te acompañara en cualquier look",
+  "price": 18,
+  "category": "koalas"
+}
+
